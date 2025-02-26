@@ -2,6 +2,12 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+<<<<<<< HEAD
+=======
+    # nice_view_gem
+    - name: m165437
+      url-base: https://github.com/M165437
+>>>>>>> 45ee2d1f09d65e8a15895e0dd920ca9904a6757e
     # dongle_display
     - name: englmaxi
       url-base: https://github.com/englmaxi
@@ -13,6 +19,13 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+<<<<<<< HEAD
+=======
+    # nice_view_gem
+    - name: nice-view-gem
+      remote: m165437
+      revision: main
+>>>>>>> 45ee2d1f09d65e8a15895e0dd920ca9904a6757e
     # dongle_display
     - name: zmk-dongle-display
       remote: englmaxi
